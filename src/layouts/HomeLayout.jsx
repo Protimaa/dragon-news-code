@@ -4,6 +4,7 @@ import LatestNews from "../components/LatestNews";
 import LeftNavbar from "../components/layout-component/LeftNavbar";
 import RightNav from "../components/layout-component/RightNav";
 import Navbar from "../components/Navbar";
+import FooterSection from "../components/FooterSection";
 
 
 const HomeLayout = () => {
@@ -30,6 +31,9 @@ const HomeLayout = () => {
                     <RightNav></RightNav>
                 </aside>
             </main>
+            <footer>
+                <FooterSection></FooterSection>
+            </footer>
         </div>
     );
 };
